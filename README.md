@@ -1,17 +1,7 @@
-## My Project
+## Crafting serverless streaming ETL with AWS Glue
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+This document is designed to be used with the AWS Big Data Blog titled "Crafting serverless stream ETL with AWS Glue" and comprises of scripts, templates used to run streaming pipeline with AWS Glue.
 
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-

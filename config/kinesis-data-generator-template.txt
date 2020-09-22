@@ -1,0 +1,47 @@
+# Template 1
+
+{
+    "ventilatorid": {{random.number(100)}},
+    "eventtime": "{{date.now("YYYY-MM-DD HH:mm:ss")}}",
+    "serialnumber": "{{random.uuid}}",
+    "pressurecontrol": {{random.number(
+        {
+            "min":5,
+            "max":30
+        }
+    )}},
+    "o2stats": {{random.number(
+        {
+            "min":92,
+            "max":98
+        }
+    )}},
+    "minutevolume": {{random.number(
+        {
+            "min":5,
+            "max":8
+        }
+    )}},
+    "manufacturer": "{{random.arrayElement(
+        ["3M", "GE","Vyaire", "Getinge"]
+    )}}"
+}
+
+# Template 2
+
+{
+    "ventilatorid": {{random.number(60)}},
+    "eventtime": "{{date.now("YYYY-MM-DD HH:mm:ss")}}",
+    "humidity": {{random.number(
+        {
+            "min":31,
+            "max":43
+        }
+    )}},
+    "gastemperature": {{random.number(
+        {
+            "min":32,
+            "max":43
+        }
+    )}}
+}
